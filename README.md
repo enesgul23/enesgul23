@@ -26,7 +26,7 @@ I'm a passionate developer from Turkey, focusing on backend development, data sc
 
 ## Blog Posts
 <!-- BLOG-POST-LIST:START -->
-- [How to get started with Django](https://medium.com/@kariyerenes/the-braggs-and-the-nature-of-perception-0dafd1777703)
+- [The Braggs and the Nature of Perception](https://medium.com/@kariyerenes/the-braggs-and-the-nature-of-perception-0dafd1777703)
 
 <!-- BLOG-POST-LIST:END -->
 
