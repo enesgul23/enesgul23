@@ -30,11 +30,7 @@ I'm a passionate developer from Turkey, focusing on backend development, data sc
 
 <!-- BLOG-POST-LIST:END -->
 
-## Recent Activity
-<!--START_SECTION:activity-->
-1. ❗️ Closed issue [#123](https://github.com/enesgul23/ProjectName/issues/123) in [enesgul23/ProjectName](https://github.com/enesgul23/ProjectName)
-2. 🎉 Merged PR [#456](https://github.com/enesgul23/ProjectName/pull/456) in [enesgul23/ProjectName](https://github.com/enesgul23/ProjectName)
-3. 💪 Opened PR [#789](https://github.com/enesgul23/ProjectName/pull/789) in [enesgul23/AnotherProject](https://github.com/enesgul23/AnotherProject)
+
 <!--END_SECTION:activity-->
 
 ## Support
