@@ -42,12 +42,14 @@ jobs:
           git add README.md
           git commit -m 'Update starred repositories' || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.GIT_TOKEN }}@github.com/enesgul23/enesgul23.git HEAD:main
-  debug: |
-    echo "Running debug commands"
-    git config --global --add safe.directory /github/workspace
-    git remote -v
-    git log
-    ls -al
-    cat README.md
-    git status
-    git show HEAD
+
+      - name: Debug Git Push
+        run: |
+          echo "Running debug commands"
+          git config --global --add safe.directory /github/workspace
+          git remote -v
+          git log
+          ls -al
+          cat README.md
+          git status
+          git show HEAD
