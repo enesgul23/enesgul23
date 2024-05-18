@@ -1,0 +1,38 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Her saat başı çalışır
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Pull GitHub stars
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -s -H "Authorization: token $GITHUB_TOKEN" \
+          https://api.github.com/users/enesgul23/starred \
+          | jq -r '.[] | "* [" + .name + "](" + .html_url + "): " + .description' \
+          > starred_repos.md
+
+      - name: Update README
+        run: |
+          sed -i '/<!-- START_SECTION:starred_repos -->/,/<!-- END_SECTION:starred_repos -->/c\
+          <!-- START_SECTION:starred_repos -->\n\
+          $(cat starred_repos.md)\n\
+          <!-- END_SECTION:starred_repos -->' README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m 'Update starred repositories'
+          git push
