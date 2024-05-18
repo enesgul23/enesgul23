@@ -8,7 +8,7 @@ I'm a passionate developer from Turkey, focusing on backend development, data sc
 - 👯 I’m looking to collaborate on **Open Source Projects**
 - 💬 Ask me about **Python, Pytorch, and Data Science**
 - 📫 How to reach me: **[drenesgul@gmail.com](mailto:drenesgul@gmail.com)**
-- ⚡ Fun fact: I love coding.
+- ⚡ Fun fact: I love coding..
 
 ## GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=enesgul23&show_icons=true&theme=radical)
