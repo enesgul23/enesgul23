@@ -29,10 +29,7 @@ I'm a passionate developer from Turkey, focusing on backend development, data sc
 - [How to get started with Django](https://medium.com/@kariyerenes/the-braggs-and-the-nature-of-perception-0dafd1777703)
 
 <!-- BLOG-POST-LIST:END -->
-## Starred Repositories
-<!-- START_SECTION:starred_repos -->
-<!-- Bu bölüm GitHub Actions tarafından otomatik olarak güncellenecektir -->
-<!-- END_SECTION:starred_repos -->
+
 
 
 <!--END_SECTION:activity-->
