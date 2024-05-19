@@ -35,5 +35,5 @@ I'm a passionate developer from Turkey, focusing on backend development, data sc
 <!--END_SECTION:activity-->
 
 ## Support
-If you like my work and want to support me, you can sen a mail 😊:
+If you like my work and want to support me, you can send a mail 😊:
 
